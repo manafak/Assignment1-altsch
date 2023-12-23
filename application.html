@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Application - AltSchool</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>School Application</h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="application.html">Application</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Application Form</h2>
+        <form action="#" method="post">
+            <!-- Personal Information -->
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+
+                <!-- Add more personal information fields as needed -->
+            </fieldset>
+
+            <!-- Academic Information -->
+            <fieldset>
+                <legend>Academic Information</legend>
+                <label for="previousSchool">Previous School:</label>
+                <input type="text" id="previousSchool" name="previousSchool">
+
+                <label for="grade">Grade Applying For:</label>
+                <input type="text" id="grade" name="grade" required>
+
+                <!-- Add more academic information fields as needed -->
+            </fieldset>
+
+            <!-- Additional Information -->
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label for="interests">Interests/Hobbies:</label>
+                <textarea id="interests" name="interests" rows="4"></textarea>
+
+                <label for="references">References (if any):</label>
+                <textarea id="references" name="references" rows="4"></textarea>
+
+                <!-- Add more additional information fields as needed -->
+            </fieldset>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Kingsley Manafa</p>
+    </footer>
+
+</body>
+
+</html>
